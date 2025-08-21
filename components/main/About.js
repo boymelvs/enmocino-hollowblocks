@@ -80,7 +80,7 @@ const About = () => {
                                                             children: [
                                                                  {
                                                                       img: {
-                                                                           src: "../../assets/img/location.jpg",
+                                                                           src: "./assets/img/location.jpg",
                                                                            alt: "HollowBlocks Making Site",
                                                                       },
                                                                  },
