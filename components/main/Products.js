@@ -50,7 +50,7 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "../assets/img/hollowblocks.jpg",
+                                                                                          src: "../../assets/img/hollowblocks.jpg",
                                                                                           alt: "Hollow Blocks",
                                                                                      },
                                                                                 },
@@ -88,7 +88,7 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "../assets/img/mayon_cement.jpg",
+                                                                                          src: "../../assets/img/mayon_cement.jpg",
                                                                                           alt: "Mayon Cement",
                                                                                      },
                                                                                 },
@@ -127,7 +127,7 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "../assets/img/sand.jpg",
+                                                                                          src: "../../assets/img/sand.jpg",
                                                                                           alt: "sand aggregates",
                                                                                      },
                                                                                 },
