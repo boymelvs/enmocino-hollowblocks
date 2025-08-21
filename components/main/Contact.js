@@ -18,13 +18,11 @@ const Contact = () => {
                                    alignItems: "center",
                                    gap: "6rem",
                                    width: "100%",
-                                   animation: "fadeInUp 1000ms ease 600ms forwards",
                               },
                               children: [
                                    {
                                         div: {
                                              className: "main-section-title",
-
                                              children: [
                                                   {
                                                        h2: {
@@ -97,7 +95,7 @@ const Contact = () => {
                                                                                                               },
                                                                                                               {
                                                                                                                    p: {
-                                                                                                                        text: "123 Industrial Zone, Construction City, CC98765",
+                                                                                                                        text: "Brgy. Matacong Purok 6, San Lorenzo Ruiz, Camarines Norte, Philippines",
                                                                                                                    },
                                                                                                               },
                                                                                                          ],
@@ -127,7 +125,7 @@ const Contact = () => {
                                                                                                                    h4: { text: "Phone" },
                                                                                                               },
                                                                                                               {
-                                                                                                                   p: { text: "+1 (555) 123-4567" },
+                                                                                                                   p: { text: "0963-025-8507 / 0963-768-9475" },
                                                                                                               },
                                                                                                          ],
                                                                                                     },
@@ -187,10 +185,7 @@ const Contact = () => {
                                                                                                                    h4: { text: "Working Hours" },
                                                                                                               },
                                                                                                               {
-                                                                                                                   p: { text: "Monday - Friday: 8:00 AM - 5:00 PM" },
-                                                                                                              },
-                                                                                                              {
-                                                                                                                   p: { text: "Saturday: 9:00 AM - 2:00 PM" },
+                                                                                                                   p: { text: "Sunday - Saturday: 7:00 AM - 5:00 PM" },
                                                                                                               },
                                                                                                          ],
                                                                                                     },

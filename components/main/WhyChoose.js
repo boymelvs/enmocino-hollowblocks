@@ -14,7 +14,6 @@ const WhyChoose = () => {
                                    alignItems: "center",
                                    gap: "6rem",
                                    width: "100%",
-                                   animation: "fadeInUp 1000ms ease 600ms forwards",
                               },
                               children: [
                                    {

@@ -159,17 +159,23 @@ body {
 .nav-links a::after {
      content: "";
      position: absolute;
-     width: 0;
-     height: 0.2rem;
-     background: var(--secondary);
      bottom: -0.5rem;
      left: 0;
-     transition: width 300ms;
+     width: 100%;
+     border-bottom: 0.2rem solid var(--secondary);
+     transform: scale(0, 1);
+     transform-origin: right;
+     transition: transform 300ms ease-in-out;
 }
 
 .nav-links a:hover::after {
-     transform: scale(1.1);
-     width: 100%;
+     transform: scale(1, 1);
+     transform-origin: left;
+}
+
+.nav-links a.active::after {
+     transform: scale(1, 1);
+     transform-origin: left;
 }
 
 .btn-login {
@@ -212,7 +218,7 @@ body {
 @keyframes fadeInUp {
      from {
           opacity: 0;
-          transform: translateY(20px);
+          transform: translateY(2rem);
      }
      to {
           opacity: 1;
@@ -229,6 +235,15 @@ body {
      .section {
           padding: 2rem 1.2rem;
      }
+}
+.main-section-title,
+.about-content,
+.products-grid,
+.features,
+.contact-wrapper {
+     opacity: 0;
+     transform: translateY(2rem);
+     transition: transform 500ms ease-in-out, opacity 400ms ease-in-out;
 }
 
 .main-section-title {
@@ -256,6 +271,7 @@ body {
 }
 
 /* About Section */
+
 @media (max-width: 768px) {
      .about-content {
           flex-direction: column;
@@ -346,7 +362,6 @@ body {
      background-color: var(--white);
      border-radius: 0.8rem;
      box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.05);
-     transition: transform 300ms;
 }
 
 .feature-card:hover {

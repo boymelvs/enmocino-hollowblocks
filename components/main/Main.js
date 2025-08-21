@@ -17,7 +17,7 @@ const Main = (props, { getState, setState }) => {
                     width: "100%",
                     zIndex: "1",
                },
-               children: [Hero(), About(), Products(), WhyChoose(), Contact()],
+               children: [Hero(setState), About(), Products(), WhyChoose(), Contact()],
           },
      };
 };

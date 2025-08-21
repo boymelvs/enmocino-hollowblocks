@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero = (setState) => {
      return {
           section: {
                id: "home",
@@ -37,8 +37,8 @@ const Hero = () => {
                                                                  fontSize: "4.8rem",
                                                                  lineHeight: "normal",
                                                                  textAlign: "center",
-                                                                 animation: "fadeInUp 1s ease",
                                                                  width: "100%",
+                                                                 animation: "fadeInUp 1000ms ease",
                                                             },
                                                             text: "Quality Hollow Blocks",
                                                        },
@@ -49,7 +49,7 @@ const Hero = () => {
                                                                  fontSize: "2rem",
                                                                  lineHeight: "normal",
                                                                  textAlign: "center",
-                                                                 animation: "fadeInUp 1s ease 300ms forwards",
+                                                                 animation: "fadeInUp 1000ms ease 300ms forwards",
                                                                  width: "70%",
                                                                  opacity: "0",
                                                             },
@@ -70,8 +70,11 @@ const Hero = () => {
                                                                  transition: "all 0.3s",
                                                                  border: "none",
                                                                  cursor: "pointer",
-                                                                 animation: "fadeInUp 1s ease 600ms forwards",
+                                                                 animation: "fadeInUp 1000ms ease 600ms forwards",
                                                                  opacity: "0",
+                                                            },
+                                                            onclick: () => {
+                                                                 setState("isActiveNav", "contact");
                                                             },
                                                        },
                                                   },

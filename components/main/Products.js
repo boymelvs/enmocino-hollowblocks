@@ -18,7 +18,6 @@ const Products = () => {
                                    alignItems: "center",
                                    gap: "6rem",
                                    width: "100%",
-                                   animation: "fadeInUp 1000ms ease 600ms forwards",
                               },
                               children: [
                                    {
@@ -51,8 +50,8 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-                                                                                          alt: "Standard Hollow Blocks",
+                                                                                          src: "../assets/img/hollowblocks.jpg",
+                                                                                          alt: "Hollow Blocks",
                                                                                      },
                                                                                 },
                                                                            ],
@@ -63,15 +62,15 @@ const Products = () => {
                                                                            className: "product-info",
                                                                            children: [
                                                                                 {
-                                                                                     h3: { text: "Standard Hollow Blocks" },
+                                                                                     h3: { text: "Hollow Blocks" },
                                                                                 },
                                                                                 {
                                                                                      p: {
-                                                                                          text: "Our most popular product, perfect for general construction needs. Available in various sizes and densities.",
+                                                                                          text: "Our most popular product, perfect for general construction needs. Available in 4 inches size.",
                                                                                      },
                                                                                 },
                                                                                 {
-                                                                                     div: { className: "price", text: "From Php12.00 per block" },
+                                                                                     div: { className: "price", text: "Php 12.00 per block" },
                                                                                 },
                                                                            ],
                                                                       },
@@ -89,8 +88,8 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-                                                                                          alt: "Standard Hollow Blocks",
+                                                                                          src: "../assets/img/mayon_cement.jpg",
+                                                                                          alt: "Mayon Cement",
                                                                                      },
                                                                                 },
                                                                            ],
@@ -101,15 +100,15 @@ const Products = () => {
                                                                            className: "product-info",
                                                                            children: [
                                                                                 {
-                                                                                     h3: { text: "Standard Hollow Blocks" },
+                                                                                     h3: { text: "Mayon Cement" },
                                                                                 },
                                                                                 {
                                                                                      p: {
-                                                                                          text: "Our most popular product, perfect for general construction needs. Available in various sizes and densities.",
+                                                                                          text: "Perfect for general construction needs.",
                                                                                      },
                                                                                 },
                                                                                 {
-                                                                                     div: { className: "price", text: "From Php12.00 per block" },
+                                                                                     div: { className: "price", text: "Php 240.00 per bag" },
                                                                                 },
                                                                            ],
                                                                       },
@@ -117,6 +116,7 @@ const Products = () => {
                                                             ],
                                                        },
                                                   },
+
                                                   {
                                                        div: {
                                                             className: "product-card",
@@ -127,8 +127,8 @@ const Products = () => {
                                                                            children: [
                                                                                 {
                                                                                      img: {
-                                                                                          src: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-                                                                                          alt: "Standard Hollow Blocks",
+                                                                                          src: "../assets/img/sand.jpg",
+                                                                                          alt: "sand aggregates",
                                                                                      },
                                                                                 },
                                                                            ],
@@ -139,53 +139,15 @@ const Products = () => {
                                                                            className: "product-info",
                                                                            children: [
                                                                                 {
-                                                                                     h3: { text: "Standard Hollow Blocks" },
+                                                                                     h3: { text: "Aggregates" },
                                                                                 },
                                                                                 {
                                                                                      p: {
-                                                                                          text: "Our most popular product, perfect for general construction needs. Available in various sizes and densities.",
+                                                                                          text: "Perfect for general construction needs.",
                                                                                      },
                                                                                 },
                                                                                 {
-                                                                                     div: { className: "price", text: "From Php12.00 per block" },
-                                                                                },
-                                                                           ],
-                                                                      },
-                                                                 },
-                                                            ],
-                                                       },
-                                                  },
-                                                  {
-                                                       div: {
-                                                            className: "product-card",
-                                                            children: [
-                                                                 {
-                                                                      div: {
-                                                                           className: "product-image",
-                                                                           children: [
-                                                                                {
-                                                                                     img: {
-                                                                                          src: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-                                                                                          alt: "Standard Hollow Blocks",
-                                                                                     },
-                                                                                },
-                                                                           ],
-                                                                      },
-                                                                 },
-                                                                 {
-                                                                      div: {
-                                                                           className: "product-info",
-                                                                           children: [
-                                                                                {
-                                                                                     h3: { text: "Standard Hollow Blocks" },
-                                                                                },
-                                                                                {
-                                                                                     p: {
-                                                                                          text: "Our most popular product, perfect for general construction needs. Available in various sizes and densities.",
-                                                                                     },
-                                                                                },
-                                                                                {
-                                                                                     div: { className: "price", text: "From Php12.00 per block" },
+                                                                                     div: { className: "price", text: "Php 900.00 per cubic meter" },
                                                                                 },
                                                                            ],
                                                                       },

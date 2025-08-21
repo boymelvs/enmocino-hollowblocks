@@ -106,7 +106,10 @@ const Headers = (props, { getState, setState }) => {
                                                                                           a: {
                                                                                                href: `#${item.toLowerCase()}`,
                                                                                                text: item,
-                                                                                               onClick: () => {
+                                                                                               className: () =>
+                                                                                                    getState("isActiveNav", "home") === item.toLowerCase() ? "active" : null,
+                                                                                               onClick: (e) => {
+                                                                                                    setState("isActiveNav", e.target.innerText.toLowerCase());
                                                                                                     closeBurger();
                                                                                                },
                                                                                           },
@@ -134,6 +137,7 @@ const Headers = (props, { getState, setState }) => {
                                                                                           text: "Login",
                                                                                           onClick: () => {
                                                                                                closeBurger();
+                                                                                               setState("isActiveNav", "home");
                                                                                           },
                                                                                      },
                                                                                 },
