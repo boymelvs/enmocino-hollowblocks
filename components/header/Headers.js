@@ -3,6 +3,11 @@ import Burger from "./Burger.js";
 const Headers = (props, { getState, setState }) => {
      const navItem = ["Home", "About", "Products", "Why Us", "Contact"];
 
+     const closeBurger = () => {
+          const burger = document.getElementById("burger-checkbox");
+          burger.checked = false;
+     };
+
      return {
           header: {
                id: "header",
@@ -101,6 +106,9 @@ const Headers = (props, { getState, setState }) => {
                                                                                           a: {
                                                                                                href: `#${item.toLowerCase()}`,
                                                                                                text: item,
+                                                                                               onClick: () => {
+                                                                                                    closeBurger();
+                                                                                               },
                                                                                           },
                                                                                      },
                                                                                 ],
@@ -124,6 +132,9 @@ const Headers = (props, { getState, setState }) => {
                                                                                                transition: "all 300ms",
                                                                                           },
                                                                                           text: "Login",
+                                                                                          onClick: () => {
+                                                                                               closeBurger();
+                                                                                          },
                                                                                      },
                                                                                 },
                                                                            ],

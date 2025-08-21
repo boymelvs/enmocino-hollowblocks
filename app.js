@@ -15,7 +15,7 @@ const juris = new Juris({
 
      layout: [{ Headers: {} }, { Main: {} }, { Footer: {} }],
 
-     logLevel: "warn",
+     // logLevel: "warn",
 });
 
 juris.render("#app");

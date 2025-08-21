@@ -52,6 +52,7 @@ const About = () => {
                                                                                 color: "var(--primary)",
                                                                                 marginBottom: "2rem",
                                                                                 lineHeight: "normal",
+                                                                                textAlign: "center",
                                                                            },
                                                                            text: "Trusted Hollow Blocks Manufacturer",
                                                                       },
