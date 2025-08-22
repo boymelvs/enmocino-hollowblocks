@@ -101,7 +101,13 @@ const Footer = (props, { getState, setState }) => {
                                                   width: "100%",
                                                   opacity: "0.8",
                                              },
-                                             text: "&copy; 2025 Enmocino HollowBlocks. All Right Reserved.",
+                                             children: [
+                                                  {
+                                                       i: { className: "fa fa-copyright" },
+                                                  },
+
+                                                  ` ${new Date().getFullYear()} Enmocino HollowBlocks. All Right Reserved.`,
+                                             ],
                                         },
                                    },
                               ],

@@ -2,6 +2,7 @@ import Headers from "./components/header/Headers.js";
 import Main from "./components/main/Main.js";
 import Footer from "./components/footer/Footer.js";
 import LoginModal from "./components/modal/LoginModal.js";
+import SignupModal from "./components/modal/SignupModal.js";
 
 // Animation on scroll
 function animateOnScroll() {
@@ -27,13 +28,14 @@ const juris = new Juris({
           Main,
           Footer,
           LoginModal,
+          SignupModal,
      },
 
      headlessComponents: {},
 
      states: {},
 
-     layout: [{ Headers: {} }, { Main: {} }, { Footer: {} }, { LoginModal: {} }],
+     layout: [{ Headers: {} }, { Main: {} }, { Footer: {} }, { LoginModal: {} }, { SignupModal: {} }],
 
      // logLevel: "warn",
 });

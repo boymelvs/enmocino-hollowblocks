@@ -90,10 +90,19 @@ const LoginModal = (props, { getState, setState }) => {
                                                   {
                                                        div: {
                                                             className: "form-footer",
-                                                            text: "Don't have an account?",
                                                             children: [
+                                                                 "Don't have an account? ",
                                                                  {
-                                                                      a: { href: "#", id: "switchToSignup", text: "Sign Up here" },
+                                                                      a: {
+                                                                           href: "#",
+                                                                           id: "switchToSignup",
+                                                                           text: "Sign Up here",
+                                                                           onclick: (e) => {
+                                                                                e.preventDefault();
+                                                                                setState("isSignupModalOpen", true);
+                                                                                setState("isLoginModalOpen", false);
+                                                                           },
+                                                                      },
                                                                  },
                                                             ],
                                                        },

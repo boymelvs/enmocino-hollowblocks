@@ -135,7 +135,8 @@ const Headers = (props, { getState, setState }) => {
                                                                                                transition: "all 300ms",
                                                                                           },
                                                                                           text: "Login",
-                                                                                          onClick: () => {
+                                                                                          onClick: (e) => {
+                                                                                               e.preventDefault();
                                                                                                setState("isLoginModalOpen", true);
                                                                                                closeBurger();
                                                                                           },

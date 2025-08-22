@@ -73,9 +73,9 @@ const Hero = (setState) => {
                                                                  animation: "fadeInUp 1000ms ease 600ms forwards",
                                                                  opacity: "0",
                                                             },
-                                                            // onclick: () => {
-                                                            //      setState("isActiveNav", "contact");
-                                                            // },
+                                                            onclick: () => {
+                                                                 setState("isActiveNav", "contact");
+                                                            },
                                                        },
                                                   },
                                              ],
