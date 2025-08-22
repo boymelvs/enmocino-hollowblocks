@@ -1,6 +1,7 @@
 import Headers from "./components/header/Headers.js";
 import Main from "./components/main/Main.js";
 import Footer from "./components/footer/Footer.js";
+import LoginModal from "./components/modal/LoginModal.js";
 
 // Animation on scroll
 function animateOnScroll() {
@@ -25,13 +26,14 @@ const juris = new Juris({
           Headers,
           Main,
           Footer,
+          LoginModal,
      },
 
      headlessComponents: {},
 
      states: {},
 
-     layout: [{ Headers: {} }, { Main: {} }, { Footer: {} }],
+     layout: [{ Headers: {} }, { Main: {} }, { Footer: {} }, { LoginModal: {} }],
 
      // logLevel: "warn",
 });

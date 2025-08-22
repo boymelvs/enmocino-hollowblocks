@@ -125,7 +125,7 @@ const Headers = (props, { getState, setState }) => {
                                                                            children: [
                                                                                 {
                                                                                      a: {
-                                                                                          href: "#",
+                                                                                          href: "",
                                                                                           id: "loginBtn",
                                                                                           className: "btn-auth btn-login",
                                                                                           style: {
@@ -136,8 +136,8 @@ const Headers = (props, { getState, setState }) => {
                                                                                           },
                                                                                           text: "Login",
                                                                                           onClick: () => {
+                                                                                               setState("isLoginModalOpen", true);
                                                                                                closeBurger();
-                                                                                               setState("isActiveNav", "home");
                                                                                           },
                                                                                      },
                                                                                 },
